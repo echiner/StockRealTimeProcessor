@@ -1,4 +1,4 @@
-##Software required to download:
+## Software required to download:
 
 Elastic --> https://www.elastic.co/es/downloads/elasticsearch
 
@@ -10,7 +10,7 @@ Schema registry for windows --> https://github.com/renukaradhya/confluentplatfor
 
 kafka tool & avro pluggin --> http://www.kafkatool.com/ , https://github.com/laymain/kafka-tool-avro
 
-##Launch platform locally:
+## Launch platform locally:
 
 
 •	Launch zookeeper inside confluent installation folder:
