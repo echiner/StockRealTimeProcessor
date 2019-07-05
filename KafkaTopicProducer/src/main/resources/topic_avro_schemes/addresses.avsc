@@ -1,0 +1,9 @@
+{
+    "name": "Addresses",
+    "type": "record",
+    "fields": [
+        { "name": "Name", "type": "string" },
+        { "name": "Street", "type": "string" }
+    ]
+
+}

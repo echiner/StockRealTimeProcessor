@@ -1,0 +1,16 @@
+{
+    "namespace": "com.gft.model",
+    "name": "Trade",
+    "type": "record",
+    "fields": [
+        { "name": "tradeId", "type": "int"},
+        { "name": "version", "type": "int"},
+        { "name": "fraRate", "type": "double"},
+        { "name": "referenceRate", "type": "double"},
+        { "name": "amount", "type": "double"},
+        { "name": "currency", "type": "string"},
+        { "name": "valid", "type":"boolean"},
+        { "name": "validationResults", "type": {"type":"array", "items":"string"}}
+    ]
+
+}

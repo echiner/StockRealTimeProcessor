@@ -1,0 +1,186 @@
+{
+  "name": "Quote",
+  "type": "record",
+  "namespace": "com.gft.upv.avro",
+  "fields": [
+    {
+      "name": "symbol",
+      "type": "string"
+    },
+    {
+      "name": "companyName",
+      "type": "string"
+    },
+    {
+      "name": "calculationPrice",
+      "type": "string"
+    },
+    {
+      "name": "open",
+      "type": "float"
+    },
+    {
+      "name": "openTime",
+      "type": "long"
+    },
+    {
+      "name": "close",
+      "type": "float"
+    },
+    {
+      "name": "closeTime",
+      "type": "long"
+    },
+    {
+      "name": "high",
+      "type": "float"
+    },
+    {
+      "name": "low",
+      "type": "float"
+    },
+    {
+      "name": "latestPrice",
+      "type": "float"
+    },
+    {
+      "name": "latestSource",
+      "type": "string"
+    },
+    {
+      "name": "latestTime",
+      "type": "string"
+    },
+    {
+      "name": "latestUpdate",
+      "type": "long"
+    },
+    {
+      "name": "latestVolume",
+      "type": "int"
+    },
+    {
+      "name": "iexRealtimePrice",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "iexRealtimeSize",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "iexLastUpdated",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "delayedPrice",
+      "type": "float"
+    },
+    {
+      "name": "delayedPriceTime",
+      "type": "long"
+    },
+    {
+      "name": "extendedPrice",
+      "type": "float"
+    },
+    {
+      "name": "extendedChange",
+      "type": "float"
+    },
+    {
+      "name": "extendedChangePercent",
+      "type": "float"
+    },
+    {
+      "name": "extendedPriceTime",
+      "type": "long"
+    },
+    {
+      "name": "previousClose",
+      "type": "float"
+    },
+    {
+      "name": "change",
+      "type": "float"
+    },
+    {
+      "name": "changePercent",
+      "type": "float"
+    },
+    {
+      "name": "iexMarketPercent",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "iexVolume",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "avgTotalVolume",
+      "type": "int"
+    },
+    {
+      "name": "iexBidPrice",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "iexBidSize",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "iexAskPrice",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "iexAskSize",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "marketCap",
+      "type": "long"
+    },
+    {
+      "name": "peRatio",
+      "type": "float"
+    },
+    {
+      "name": "week52High",
+      "type": "float"
+    },
+    {
+      "name": "week52Low",
+      "type": "int"
+    },
+    {
+      "name": "ytdChange",
+      "type": "float"
+    }
+  ]
+}
